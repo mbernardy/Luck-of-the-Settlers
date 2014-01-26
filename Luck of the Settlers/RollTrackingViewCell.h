@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIStepper *countStepper;
 @property (weak, nonatomic) IBOutlet UILabel *rollCount;
 
+@property(nonatomic,assign)id delegate;
 
 - (IBAction)countChanged:(UIStepper*)sender;
 

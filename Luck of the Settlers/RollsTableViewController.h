@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CountChangedProtocol.h"
 
-@interface RollsTableViewController : UITableViewController
+@interface RollsTableViewController : UITableViewController<CountChangedDelegate>
 
 @property (nonatomic, strong) NSArray *rollValues;
 

@@ -78,10 +78,20 @@
     NSString *rollValue = [[self.rollValues objectAtIndex:row] stringValue];
     cell.rollValue.text = rollValue;
     cell.rollCount.text = @"0";
+    cell.delegate = self;
     
     // Configure the cell...
     
     return cell;
+}
+
+
+-(void) countChanged: (NSString *)rollValue fuck:(NSString *)rollCount
+{
+    int a = 1;
+    int b = 2;
+    a +b;
+    
 }
 
 /*

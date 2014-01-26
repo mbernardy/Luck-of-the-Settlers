@@ -21,7 +21,6 @@
 		201E6DDD17F8BB260004B93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E6DBC17F8BB260004B93D /* UIKit.framework */; };
 		201E6DE517F8BB260004B93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201E6DE317F8BB260004B93D /* InfoPlist.strings */; };
 		201E6DE717F8BB260004B93D /* Luck_of_the_SettlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */; };
-		201E6DF217F8D2FB0004B93D /* RollsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DF117F8D2FB0004B93D /* RollsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		201E6DE217F8BB260004B93D /* Luck of the SettlersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Luck of the SettlersTests-Info.plist"; sourceTree = "<group>"; };
 		201E6DE417F8BB260004B93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luck_of_the_SettlersTests.m; sourceTree = "<group>"; };
-		201E6DF017F8D2FB0004B93D /* RollsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollsViewController.h; sourceTree = "<group>"; };
-		201E6DF117F8D2FB0004B93D /* RollsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +119,6 @@
 				201E6DCE17F8BB260004B93D /* losFirstViewController.m */,
 				201E6DD317F8BB260004B93D /* Images.xcassets */,
 				201E6DBF17F8BB260004B93D /* Supporting Files */,
-				201E6DF017F8D2FB0004B93D /* RollsViewController.h */,
-				201E6DF117F8D2FB0004B93D /* RollsViewController.m */,
 			);
 			path = "Luck of the Settlers";
 			sourceTree = "<group>";
@@ -256,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				201E6DC517F8BB260004B93D /* main.m in Sources */,
-				201E6DF217F8D2FB0004B93D /* RollsViewController.m in Sources */,
 				201E6DCF17F8BB260004B93D /* losFirstViewController.m in Sources */,
 				201E6DC917F8BB260004B93D /* losAppDelegate.m in Sources */,
 			);
@@ -467,6 +461,7 @@
 				201E6DEC17F8BB260004B93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		201E6DED17F8BB260004B93D /* Build configuration list for PBXNativeTarget "Luck of the SettlersTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +470,7 @@
 				201E6DEF17F8BB260004B93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

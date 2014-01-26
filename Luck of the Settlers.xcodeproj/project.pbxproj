@@ -21,6 +21,7 @@
 		201E6DDD17F8BB260004B93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E6DBC17F8BB260004B93D /* UIKit.framework */; };
 		201E6DE517F8BB260004B93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201E6DE317F8BB260004B93D /* InfoPlist.strings */; };
 		201E6DE717F8BB260004B93D /* Luck_of_the_SettlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */; };
+		20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD4189585F200569717 /* RollTrackingViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		201E6DE217F8BB260004B93D /* Luck of the SettlersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Luck of the SettlersTests-Info.plist"; sourceTree = "<group>"; };
 		201E6DE417F8BB260004B93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luck_of_the_SettlersTests.m; sourceTree = "<group>"; };
+		20DEEDD3189585F200569717 /* RollTrackingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollTrackingViewCell.h; sourceTree = "<group>"; };
+		20DEEDD4189585F200569717 /* RollTrackingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollTrackingViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				201E6DCE17F8BB260004B93D /* losFirstViewController.m */,
 				201E6DD317F8BB260004B93D /* Images.xcassets */,
 				201E6DBF17F8BB260004B93D /* Supporting Files */,
+				20DEEDD3189585F200569717 /* RollTrackingViewCell.h */,
+				20DEEDD4189585F200569717 /* RollTrackingViewCell.m */,
 			);
 			path = "Luck of the Settlers";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */,
 				201E6DC517F8BB260004B93D /* main.m in Sources */,
 				201E6DCF17F8BB260004B93D /* losFirstViewController.m in Sources */,
 				201E6DC917F8BB260004B93D /* losAppDelegate.m in Sources */,

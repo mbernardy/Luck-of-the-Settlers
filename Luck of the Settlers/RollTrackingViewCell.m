@@ -28,4 +28,8 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)countChanged:(UIStepper*)sender {
+    _countValue.text = [NSString stringWithFormat:@"%d", (int)[sender value]];
+    
+}
 @end

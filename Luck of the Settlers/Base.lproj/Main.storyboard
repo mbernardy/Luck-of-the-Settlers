@@ -99,6 +99,9 @@
                                         <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="GmM-tY-FP7">
                                             <rect key="frame" x="97" y="7" width="94" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <connections>
+                                                <action selector="countChanged:" destination="bd9-9J-eer" eventType="valueChanged" id="K0H-y0-DOC"/>
+                                            </connections>
                                         </stepper>
                                     </subviews>
                                 </tableViewCellContentView>

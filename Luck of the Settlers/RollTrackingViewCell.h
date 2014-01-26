@@ -14,4 +14,8 @@
 @property (weak, nonatomic) IBOutlet UIStepper *countStepper;
 @property (weak, nonatomic) IBOutlet UILabel *countValue;
 
+
+- (IBAction)countChanged:(UIStepper*)sender;
+
+
 @end

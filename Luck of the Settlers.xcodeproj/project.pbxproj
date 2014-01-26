@@ -22,6 +22,7 @@
 		201E6DE517F8BB260004B93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201E6DE317F8BB260004B93D /* InfoPlist.strings */; };
 		201E6DE717F8BB260004B93D /* Luck_of_the_SettlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */; };
 		20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD4189585F200569717 /* RollTrackingViewCell.m */; };
+		20DEEDD81895886700569717 /* RollsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD71895886700569717 /* RollsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luck_of_the_SettlersTests.m; sourceTree = "<group>"; };
 		20DEEDD3189585F200569717 /* RollTrackingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollTrackingViewCell.h; sourceTree = "<group>"; };
 		20DEEDD4189585F200569717 /* RollTrackingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollTrackingViewCell.m; sourceTree = "<group>"; };
+		20DEEDD61895886700569717 /* RollsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollsTableViewController.h; sourceTree = "<group>"; };
+		20DEEDD71895886700569717 /* RollsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				201E6DC717F8BB260004B93D /* losAppDelegate.h */,
 				201E6DC817F8BB260004B93D /* losAppDelegate.m */,
 				201E6DCA17F8BB260004B93D /* Main.storyboard */,
+				20DEEDD61895886700569717 /* RollsTableViewController.h */,
+				20DEEDD71895886700569717 /* RollsTableViewController.m */,
 				201E6DCD17F8BB260004B93D /* losFirstViewController.h */,
 				201E6DCE17F8BB260004B93D /* losFirstViewController.m */,
 				201E6DD317F8BB260004B93D /* Images.xcassets */,
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */,
+				20DEEDD81895886700569717 /* RollsTableViewController.m in Sources */,
 				201E6DC517F8BB260004B93D /* main.m in Sources */,
 				201E6DCF17F8BB260004B93D /* losFirstViewController.m in Sources */,
 				201E6DC917F8BB260004B93D /* losAppDelegate.m in Sources */,

@@ -10,6 +10,7 @@
 
 @implementation RollTrackingViewCell
 
+@synthesize rollValue = _rollValue;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

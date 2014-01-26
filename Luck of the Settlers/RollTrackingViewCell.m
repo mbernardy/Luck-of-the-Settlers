@@ -11,6 +11,7 @@
 @implementation RollTrackingViewCell
 
 @synthesize rollValue = _rollValue;
+@synthesize rollCount = _rollCount;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -29,7 +30,6 @@
 }
 
 - (IBAction)countChanged:(UIStepper*)sender {
-    _countValue.text = [NSString stringWithFormat:@"%d", (int)[sender value]];
-    
+    _rollCount.text = [NSString stringWithFormat:@"%d", (int)[sender value]];
 }
 @end

@@ -12,7 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *rollValue;
 @property (weak, nonatomic) IBOutlet UIStepper *countStepper;
-@property (weak, nonatomic) IBOutlet UILabel *countValue;
+@property (weak, nonatomic) IBOutlet UILabel *rollCount;
 
 
 - (IBAction)countChanged:(UIStepper*)sender;

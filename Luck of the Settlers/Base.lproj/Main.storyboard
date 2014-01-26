@@ -107,7 +107,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="countStepper" destination="GmM-tY-FP7" id="8vS-6E-KIT"/>
-                                    <outlet property="countValue" destination="nbz-X1-xN2" id="2kd-a1-xKo"/>
+                                    <outlet property="rollCount" destination="nbz-X1-xN2" id="Jjc-gW-zum"/>
                                     <outlet property="rollValue" destination="hYD-gw-fL9" id="AXB-gu-Lm9"/>
                                 </connections>
                             </tableViewCell>

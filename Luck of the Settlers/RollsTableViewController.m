@@ -77,6 +77,7 @@
     NSInteger row = [indexPath row];
     NSString *rollValue = [[self.rollValues objectAtIndex:row] stringValue];
     cell.rollValue.text = rollValue;
+    cell.rollCount.text = @"0";
     
     // Configure the cell...
     

@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RollTrackingViewCell.h"
 
 
 @protocol CountChangedDelegate <NSObject>
 
 @required
 
-- (void) countChanged: (NSString*)rollValue fuck:(NSString*)rollCount;
-
+- (void) countChanged: (RollTrackingViewCell*) cell;
 @end
 
 @interface CountChangedProtocol : NSObject

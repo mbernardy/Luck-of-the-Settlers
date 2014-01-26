@@ -17,11 +17,14 @@
 
 @implementation RollsTableViewController
 
+
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
     }
     return self;
 }
@@ -29,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+     self.rollCount = 0;
     
     self.rollValues = [[NSArray alloc] initWithObjects:
                        [NSNumber numberWithInt : 2],
@@ -43,6 +47,20 @@
                        [NSNumber numberWithInt : 11],
                        [NSNumber numberWithInt : 12], nil];
 
+    self.rollProbabilities = [[NSArray alloc] initWithObjects:
+                              [NSNumber numberWithDouble: (1.0/36)], //2
+                              [NSNumber numberWithDouble: (2.0/36)], //3
+                              [NSNumber numberWithDouble: (3.0/36)], //4
+                              [NSNumber numberWithDouble: (4.0/36)], //5
+                              [NSNumber numberWithDouble: (5.0/36)], //6
+                              [NSNumber numberWithDouble: (6.0/36)], //7
+                              [NSNumber numberWithDouble: (5.0/36)], //8
+                              [NSNumber numberWithDouble: (4.0/36)], //9
+                              [NSNumber numberWithDouble: (3.0/36)], //10
+                              [NSNumber numberWithDouble: (2.0/36)], //11
+                              [NSNumber numberWithDouble: (1.0/36)], //12
+                              nil];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -78,6 +96,7 @@
     NSString *rollValue = [[self.rollValues objectAtIndex:row] stringValue];
     cell.rollValue.text = rollValue;
     cell.rollCount.text = @"0";
+    cell.rollRatio.text =@"";
     cell.delegate = self;
     
     // Configure the cell...
@@ -86,11 +105,25 @@
 }
 
 
--(void) countChanged: (NSString *)rollValue fuck:(NSString *)rollCount
+-(void) countChanged: (RollTrackingViewCell*) cell
 {
-    int a = 1;
-    int b = 2;
-    a +b;
+    _rollCount++;
+    
+    double currRatio = [[cell.rollCount text] intValue]  / _rollCount;
+    int index = [[cell.rollValue text] intValue] - 2;
+    NSNumber *expectedValue = [_rollProbabilities objectAtIndex: index];
+    double difference = [expectedValue doubleValue] - currRatio;
+    cell.rollRatio.text = [[NSNumber numberWithDouble:currRatio* 100] stringValue];
+    if( difference > 0){
+        cell.rollRatio.textColor = [UIColor greenColor];
+    }else{
+        cell.rollRatio.textColor = [UIColor redColor];
+    }
+    
+    
+    
+    
+    
     
 }
 

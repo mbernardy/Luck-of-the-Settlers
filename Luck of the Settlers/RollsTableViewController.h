@@ -12,5 +12,7 @@
 @interface RollsTableViewController : UITableViewController<CountChangedDelegate>
 
 @property (nonatomic, strong) NSArray *rollValues;
+@property (nonatomic, strong) NSArray *rollProbabilities;
+@property (nonatomic) double rollCount;
 
 @end

@@ -13,7 +13,9 @@
 
 @synthesize rollValue = _rollValue;
 @synthesize rollCount = _rollCount;
+@synthesize rollRatio = _rollRatio;
 @synthesize delegate = _delegate;
+
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -34,12 +36,17 @@
 - (IBAction)countChanged:(UIStepper*)sender {
     _rollCount.text = [NSString stringWithFormat:@"%d", (int)[sender value]];
    
-    if([_delegate respondsToSelector:@selector(countChanged: fuck:)])
+    if([_delegate respondsToSelector:@selector(countChanged:)])
     {
         //send the delegate function with the amount entered by the user
-        [_delegate countChanged: [_rollValue text] fuck:[_rollCount text]];
+        [_delegate countChanged: self];
     }
 
     
+}
+- (IBAction)countChanged2:(id)sender forEvent:(UIEvent *)event {
+    int a = 2;
+    int b= 2;
+    abs(a + b);
 }
 @end

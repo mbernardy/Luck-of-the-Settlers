@@ -100,7 +100,6 @@
                                             <rect key="frame" x="97" y="7" width="94" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <connections>
-                                                <action selector="countChanged2:forEvent:" destination="bd9-9J-eer" eventType="valueChanged" id="qXx-Se-Y5o"/>
                                                 <action selector="countChanged:" destination="bd9-9J-eer" eventType="valueChanged" id="K0H-y0-DOC"/>
                                             </connections>
                                         </stepper>

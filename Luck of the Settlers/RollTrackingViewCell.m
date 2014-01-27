@@ -36,17 +36,13 @@
 - (IBAction)countChanged:(UIStepper*)sender {
     _rollCount.text = [NSString stringWithFormat:@"%d", (int)[sender value]];
    
-    if([_delegate respondsToSelector:@selector(countChanged:)])
+    if([_delegate respondsToSelector:@selector(countChanged)])
     {
         //send the delegate function with the amount entered by the user
-        [_delegate countChanged: self];
+        [_delegate countChanged];
     }
 
     
 }
-- (IBAction)countChanged2:(id)sender forEvent:(UIEvent *)event {
-    int a = 2;
-    int b= 2;
-    abs(a + b);
-}
+
 @end

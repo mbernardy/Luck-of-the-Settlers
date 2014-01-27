@@ -105,10 +105,7 @@
 }
 
 
--(void) countChanged: (RollTrackingViewCell*) cell
-{
-    _rollCount++;
-    
+-(void) updateRatio: (RollTrackingViewCell*) cell{
     double currRatio = [[cell.rollCount text] intValue]  / _rollCount;
     int index = [[cell.rollValue text] intValue] - 2;
     NSNumber *expectedValue = [_rollProbabilities objectAtIndex: index];
@@ -119,12 +116,17 @@
     }else{
         cell.rollRatio.textColor = [UIColor redColor];
     }
-    
-    
-    
-    
-    
-    
+
+}
+
+
+-(void) countChanged
+{
+    _rollCount++;
+    NSArray* cells = [(UITableView*)self.view visibleCells];
+    for(RollTrackingViewCell *c in cells) {
+        [self updateRatio:c];
+    }
 }
 
 /*

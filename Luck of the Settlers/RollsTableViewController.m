@@ -108,7 +108,6 @@
 
 
 -(void) updateRatio: (RollTrackingViewCell*) cell{
-    double currRatio = [[cell.rollCount text] intValue]  / _rollCount;
     int index = [[cell.rollValue text] intValue] - 2;
     NSNumber *expectedValue = [_rollProbabilities objectAtIndex: index];
     double expectedRolls = [expectedValue doubleValue] * _rollCount;
@@ -117,7 +116,7 @@
         cell.rollRatio.text = [NSString stringWithFormat:@"%.1f", overrolls];
         cell.rollRatio.textColor = [UIColor greenColor];
     }else{
-        cell.rollRatio.text = [NSString stringWithFormat:@"%.1f", -1*overrolls];
+        cell.rollRatio.text = [NSString stringWithFormat:@"%.1f", fabs(overrolls)];
         cell.rollRatio.textColor = [UIColor redColor];
     }
 

@@ -21,6 +21,10 @@
 		201E6DDD17F8BB260004B93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E6DBC17F8BB260004B93D /* UIKit.framework */; };
 		201E6DE517F8BB260004B93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201E6DE317F8BB260004B93D /* InfoPlist.strings */; };
 		201E6DE717F8BB260004B93D /* Luck_of_the_SettlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */; };
+		2063CFA019FC3D2F00BA4343 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF9F19FC3D2F00BA4343 /* Tile.m */; };
+		2063CFA619FC403100BA4343 /* TileDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063CFA519FC403100BA4343 /* TileDetailsViewController.m */; };
+		20C8ADB119FC32D6005E0829 /* TilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C8ADB019FC32D6005E0829 /* TilesViewController.m */; };
+		20C8ADB419FC3552005E0829 /* TileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C8ADB319FC3552005E0829 /* TileTableViewCell.m */; };
 		20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD4189585F200569717 /* RollTrackingViewCell.m */; };
 		20DEEDD81895886700569717 /* RollsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD71895886700569717 /* RollsTableViewController.m */; };
 		20DEEDDB1895956B00569717 /* CountChangedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDDA1895956B00569717 /* CountChangedProtocol.m */; };
@@ -56,6 +60,14 @@
 		201E6DE217F8BB260004B93D /* Luck of the SettlersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Luck of the SettlersTests-Info.plist"; sourceTree = "<group>"; };
 		201E6DE417F8BB260004B93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luck_of_the_SettlersTests.m; sourceTree = "<group>"; };
+		2063CF9E19FC3D2F00BA4343 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		2063CF9F19FC3D2F00BA4343 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		2063CFA419FC403100BA4343 /* TileDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileDetailsViewController.h; sourceTree = "<group>"; };
+		2063CFA519FC403100BA4343 /* TileDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileDetailsViewController.m; sourceTree = "<group>"; };
+		20C8ADAF19FC32D6005E0829 /* TilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilesViewController.h; sourceTree = "<group>"; };
+		20C8ADB019FC32D6005E0829 /* TilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilesViewController.m; sourceTree = "<group>"; };
+		20C8ADB219FC3552005E0829 /* TileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileTableViewCell.h; sourceTree = "<group>"; };
+		20C8ADB319FC3552005E0829 /* TileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileTableViewCell.m; sourceTree = "<group>"; };
 		20DEEDD3189585F200569717 /* RollTrackingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollTrackingViewCell.h; sourceTree = "<group>"; };
 		20DEEDD4189585F200569717 /* RollTrackingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollTrackingViewCell.m; sourceTree = "<group>"; };
 		20DEEDD61895886700569717 /* RollsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollsTableViewController.h; sourceTree = "<group>"; };
@@ -134,6 +146,14 @@
 				20DEEDD4189585F200569717 /* RollTrackingViewCell.m */,
 				20DEEDD91895956B00569717 /* CountChangedProtocol.h */,
 				20DEEDDA1895956B00569717 /* CountChangedProtocol.m */,
+				20C8ADAF19FC32D6005E0829 /* TilesViewController.h */,
+				20C8ADB019FC32D6005E0829 /* TilesViewController.m */,
+				20C8ADB219FC3552005E0829 /* TileTableViewCell.h */,
+				20C8ADB319FC3552005E0829 /* TileTableViewCell.m */,
+				2063CF9E19FC3D2F00BA4343 /* Tile.h */,
+				2063CF9F19FC3D2F00BA4343 /* Tile.m */,
+				2063CFA419FC403100BA4343 /* TileDetailsViewController.h */,
+				2063CFA519FC403100BA4343 /* TileDetailsViewController.m */,
 			);
 			path = "Luck of the Settlers";
 			sourceTree = "<group>";
@@ -212,7 +232,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = los;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Max Bernardy";
 				TargetAttributes = {
 					201E6DD817F8BB260004B93D = {
@@ -266,11 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DEEDDB1895956B00569717 /* CountChangedProtocol.m in Sources */,
+				2063CFA019FC3D2F00BA4343 /* Tile.m in Sources */,
 				20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */,
 				20DEEDD81895886700569717 /* RollsTableViewController.m in Sources */,
 				201E6DC517F8BB260004B93D /* main.m in Sources */,
+				2063CFA619FC403100BA4343 /* TileDetailsViewController.m in Sources */,
 				201E6DCF17F8BB260004B93D /* losFirstViewController.m in Sources */,
+				20C8ADB119FC32D6005E0829 /* TilesViewController.m in Sources */,
 				201E6DC917F8BB260004B93D /* losAppDelegate.m in Sources */,
+				20C8ADB419FC3552005E0829 /* TileTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +348,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -363,7 +386,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -421,7 +443,6 @@
 		201E6DEE17F8BB260004B93D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Luck of the Settlers.app/Luck of the Settlers";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -444,7 +465,6 @@
 		201E6DEF17F8BB260004B93D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Luck of the Settlers.app/Luck of the Settlers";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

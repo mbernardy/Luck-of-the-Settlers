@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tile.h"
 
 @class TileDetailsViewController;
 
 @protocol TileDetailsViewControllerDelegate <NSObject>
 - (void)tileDetailsViewControllerDidCancel:(TileDetailsViewController *)controller;
-- (void)tileDetailsViewControllerDidSave:(TileDetailsViewController *)controller;
+- (void)tileDetailsViewController:(TileDetailsViewController *)controller didAddTile:(Tile *) Tile;
 @end
 
 @interface TileDetailsViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UITableViewCell *resourceLabel;
 
 @property (nonatomic, weak) id <TileDetailsViewControllerDelegate> delegate;
 

@@ -46,6 +46,7 @@
                        [NSNumber numberWithInt : 10],
                        [NSNumber numberWithInt : 11],
                        [NSNumber numberWithInt : 12], nil];
+    
 
     self.rollProbabilities = [[NSArray alloc] initWithObjects:
                               [NSNumber numberWithDouble: (1.0/36)], //2
@@ -78,6 +79,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
+
     // Return the number of sections.
     return 1;
 }
@@ -109,11 +111,13 @@
     double currRatio = [[cell.rollCount text] intValue]  / _rollCount;
     int index = [[cell.rollValue text] intValue] - 2;
     NSNumber *expectedValue = [_rollProbabilities objectAtIndex: index];
-    double difference = [expectedValue doubleValue] - currRatio;
-    cell.rollRatio.text = [[NSNumber numberWithDouble:currRatio* 100] stringValue];
-    if( difference > 0){
+    double expectedRolls = [expectedValue doubleValue] * _rollCount;
+    double overrolls = [[cell.rollCount text] intValue] - expectedRolls;
+    if( overrolls > 0){
+        cell.rollRatio.text = [NSString stringWithFormat:@"%.1f", overrolls];
         cell.rollRatio.textColor = [UIColor greenColor];
     }else{
+        cell.rollRatio.text = [NSString stringWithFormat:@"%.1f", -1*overrolls];
         cell.rollRatio.textColor = [UIColor redColor];
     }
 

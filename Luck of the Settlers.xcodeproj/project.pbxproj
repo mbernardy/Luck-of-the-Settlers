@@ -23,6 +23,7 @@
 		201E6DE717F8BB260004B93D /* Luck_of_the_SettlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E6DE617F8BB260004B93D /* Luck_of_the_SettlersTests.m */; };
 		2063CFA019FC3D2F00BA4343 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063CF9F19FC3D2F00BA4343 /* Tile.m */; };
 		2063CFA619FC403100BA4343 /* TileDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063CFA519FC403100BA4343 /* TileDetailsViewController.m */; };
+		2063CFA919FCB0D200BA4343 /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063CFA819FCB0D200BA4343 /* ResourceViewController.m */; };
 		20C8ADB119FC32D6005E0829 /* TilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C8ADB019FC32D6005E0829 /* TilesViewController.m */; };
 		20C8ADB419FC3552005E0829 /* TileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C8ADB319FC3552005E0829 /* TileTableViewCell.m */; };
 		20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DEEDD4189585F200569717 /* RollTrackingViewCell.m */; };
@@ -64,6 +65,8 @@
 		2063CF9F19FC3D2F00BA4343 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		2063CFA419FC403100BA4343 /* TileDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileDetailsViewController.h; sourceTree = "<group>"; };
 		2063CFA519FC403100BA4343 /* TileDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileDetailsViewController.m; sourceTree = "<group>"; };
+		2063CFA719FCB0D200BA4343 /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
+		2063CFA819FCB0D200BA4343 /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
 		20C8ADAF19FC32D6005E0829 /* TilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilesViewController.h; sourceTree = "<group>"; };
 		20C8ADB019FC32D6005E0829 /* TilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilesViewController.m; sourceTree = "<group>"; };
 		20C8ADB219FC3552005E0829 /* TileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileTableViewCell.h; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				2063CF9F19FC3D2F00BA4343 /* Tile.m */,
 				2063CFA419FC403100BA4343 /* TileDetailsViewController.h */,
 				2063CFA519FC403100BA4343 /* TileDetailsViewController.m */,
+				2063CFA719FCB0D200BA4343 /* ResourceViewController.h */,
+				2063CFA819FCB0D200BA4343 /* ResourceViewController.m */,
 			);
 			path = "Luck of the Settlers";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			files = (
 				20DEEDDB1895956B00569717 /* CountChangedProtocol.m in Sources */,
 				2063CFA019FC3D2F00BA4343 /* Tile.m in Sources */,
+				2063CFA919FCB0D200BA4343 /* ResourceViewController.m in Sources */,
 				20DEEDD5189585F200569717 /* RollTrackingViewCell.m in Sources */,
 				20DEEDD81895886700569717 /* RollsTableViewController.m in Sources */,
 				201E6DC517F8BB260004B93D /* main.m in Sources */,

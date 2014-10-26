@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Tile.h"
+#import "ResourceViewController.h"
 
 @class TileDetailsViewController;
 
@@ -16,7 +17,7 @@
 - (void)tileDetailsViewController:(TileDetailsViewController *)controller didAddTile:(Tile *) Tile;
 @end
 
-@interface TileDetailsViewController : UITableViewController
+@interface TileDetailsViewController : UITableViewController<ResourceViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITableViewCell *resourceLabel;
 
 @property (nonatomic, weak) id <TileDetailsViewControllerDelegate> delegate;

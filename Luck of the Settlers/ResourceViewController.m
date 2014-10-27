@@ -23,7 +23,7 @@
     _resources = @[@"Sheep",
                    @"Wheat",
                    @"Coal",
-                   @"Brick"
+                   @"Brick",
                    @"Wood"];
     
     _selectedIndex = [_resources indexOfObject:self.resource];
